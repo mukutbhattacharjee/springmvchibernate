@@ -23,7 +23,7 @@ public class RegisterController {
 	public void setUserService(UserServiceImpl userService) {
 		this.userService = userService;
 	}
-
+//get the registration form
 	@RequestMapping(value="/getRegisterForm",method=RequestMethod.GET)
 	public String getRegistrationForm(){
 		return "registrationForm";
